@@ -1,0 +1,2 @@
+include ':app', ':xutils_library', ':MaterialRefreshLayout_sample', ':MaterialRefreshLayout_library', ':mapactivity', ':testVolleysample', ':alipay_demo'
+include ':social_sdk_example'

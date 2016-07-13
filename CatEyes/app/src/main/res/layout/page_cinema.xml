@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager
+    android:id="@+id/viewpager_cinema"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerVertical="true"
+         android:layout_marginLeft="15dp"
+         android:textSize="20dp"
+         android:text="登录后可查看收藏影院"/>
+        <Button
+            android:id="@+id/button_cinema_enter"
+            android:layout_width="50dp"
+            android:layout_margin="10dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:textSize="20dp"
+            android:background="@drawable/button_select"
+            android:padding="3dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="登录"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/re_vi_cinema"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <RelativeLayout
+        android:id="@+id/ll_cinema_location"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_cinema_list_group2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center_vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_height="30dp">
+
+        <ImageView
+            android:id="@+id/d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/t5"/>
+        <TextView
+            android:id="@+id/tv_location_cinema"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@id/d"
+            android:paddingLeft="5dp"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="15dp"
+            android:text="纽约市中心dfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdsdsdsdsdsdsdsds"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/t6"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

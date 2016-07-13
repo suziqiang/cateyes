@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+    <ImageView
+        android:id="@+id/iv_videoview_icon"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:background="#000000"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/iv_videoview_icon"
+        android:layout_marginLeft="20dp"
+          android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_videoview_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="古田会议"/>
+        <TextView
+            android:id="@+id/tv_videoview_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="古田会议"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_videoview_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#ffaa25"
+            android:text="暂无评分"/>
+        <Button
+            android:id="@+id/button_videoview_buy"
+            android:layout_width="35dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:background="@drawable/button_background_seclet"
+            android:text="购票"
+            android:layout_marginTop="10dp"
+            android:padding="1dp"
+            android:layout_height="25dp" />
+    </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_below="@+id/rl"
+        android:layout_width="match_parent"
+        android:background="#dddddd"
+        android:layout_height="20dp"/>
+</RelativeLayout>

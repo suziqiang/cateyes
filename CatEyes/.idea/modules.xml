@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CatEyes.iml" filepath="$PROJECT_DIR$/CatEyes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MaterialRefreshLayout_library/MaterialRefreshLayout_library.iml" filepath="$PROJECT_DIR$/MaterialRefreshLayout_library/MaterialRefreshLayout_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MaterialRefreshLayout_sample/MaterialRefreshLayout_sample.iml" filepath="$PROJECT_DIR$/MaterialRefreshLayout_sample/MaterialRefreshLayout_sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alipay_demo/alipay_demo.iml" filepath="$PROJECT_DIR$/alipay_demo/alipay_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mapactivity/mapactivity.iml" filepath="$PROJECT_DIR$/mapactivity/mapactivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/social_sdk_example/social_sdk_example.iml" filepath="$PROJECT_DIR$/social_sdk_example/social_sdk_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testVolleysample/testVolleysample.iml" filepath="$PROJECT_DIR$/testVolleysample/testVolleysample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xutils_library/xutils_library.iml" filepath="$PROJECT_DIR$/xutils_library/xutils_library.iml" />
+    </modules>
+  </component>
+</project>

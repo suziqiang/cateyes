@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_gridview_second_item_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/txu"/>
+    <TextView
+        android:id="@+id/tv_gridview_second_item_describe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:text=""/>
+    <TextView
+        android:id="@+id/tv_gridview_second_item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="39.9"/>
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    tools:context="com.atguigu.mapactivity.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/d_top"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/ll_back_video"
+            android:layout_width="match_parent"
+            android:background="@android:color/holo_red_dark"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="20dp"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/ib_back_move"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/je"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:text="选择城市"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_checkcity"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/iv_search_searchcity"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/ic_search"
+            android:layout_height="wrap_content" />
+       <EditText
+           android:id="@+id/et_search_searchcity"
+           android:layout_width="wrap_content"
+           android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+           android:hint="输入城市中文名或拼音"
+           android:background="@null"
+           android:layout_height="50dp" />
+      </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview_checkcitty"
+        android:layout_alignTop="@+id/d_top"
+        android:layout_marginTop="140dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.atguigu.cateyes.activity_position.MyLetterView
+        android:id="@+id/my_letterview"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/d_top"
+        android:layout_marginTop="140dp"
+        android:layout_alignParentRight="true"
+         />
+    <TextView
+        android:id="@+id/tv_dialog"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:textColor="#ffffffff"
+        android:textSize="30dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

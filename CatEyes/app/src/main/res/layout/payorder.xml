@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/payorder_title"/>
+  <RelativeLayout
+      android:gravity="center_vertical"
+      android:layout_width="match_parent"
+      android:layout_height="100dp">
+      <ImageView
+          android:id="@+id/iv_payorder_icon"
+          android:layout_width="40dp"
+          android:layout_marginLeft="20dp"
+          android:layout_height="40dp"
+          android:background="@drawable/iv_round"/>
+   <TextView
+       android:id="@+id/tv_money"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+       android:layout_toRightOf="@+id/iv_payorder_icon"
+       android:textSize="30dp"
+       android:text="￥"/>
+      <TextView
+          android:id="@+id/iv_payorder_total_price"
+          android:layout_width="wrap_content"
+          android:textSize="30dp"
+          android:layout_marginLeft="1dp"
+          android:layout_toRightOf="@+id/tv_money"
+          android:textColor="@android:color/black"
+          android:layout_height="wrap_content"
+          android:text="20.9"/>
+      <TextView
+          android:id="@+id/tv_payorder_name"
+          android:layout_width="wrap_content"
+          android:layout_below="@+id/iv_payorder_total_price"
+          android:textSize="20dp"
+          android:textColor="@android:color/black"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="95dp"
+          android:text="jfdlsfjlsajfldjflkdjflkdfjkld"/>
+  </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:background="#dddddd"
+        android:layout_height="20dp"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+    <TextView
+        android:id="@+id/tv_payorder_user_balance"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="18dp"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:text="使用余额"/>
+    <TextView
+        android:id="@+id/tv_icon"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/tv_payorder_user_balance"
+        android:layout_marginLeft="10dp"
+        android:textSize="18dp"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:text="￥"/>
+    <TextView
+        android:id="@+id/tv_payorder_user_balance_price"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/tv_icon"
+        android:layout_marginLeft="3dp"
+        android:textSize="18dp"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:text="0.1"/>
+
+    <CheckBox
+        android:id="@+id/rb_payorder_userbalance_price_button"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/rb_selectr"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:background="#dddddd"
+        android:layout_height="20dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/tv_payorder_weixin_icon"
+            android:layout_width="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_height="40dp"
+            android:background="@drawable/q9"/>
+        <TextView
+            android:id="@+id/tv_payorder"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"
+            android:layout_toRightOf="@+id/tv_payorder_weixin_icon"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            android:text="微信支付"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/tv_payorder"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="10dp"
+            android:text="推荐安装微信5.0以上版本的用户使用"/>
+
+        <CheckBox
+            android:id="@+id/ck_payorder_pay_weixin_icon"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/rb_selectr"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="#dddddd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/payorder_pay"
+            android:layout_centerInParent="true"
+            android:layout_width="350dp"
+            android:gravity="center_horizontal"
+            android:layout_height="40dp">
+        <ImageView
+            android:id="@+id/bt_shopping_submit_order"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/white"
+            android:text="确认支付￥"
+            android:textSize="20dp"
+            android:background="#ffaa25"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/t1"
+            android:textSize="20dp"
+            android:layout_marginLeft="90dp"
+           android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确认支付￥"/>
+
+        <TextView
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="29.0"/>
+</RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

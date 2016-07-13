@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent">
+<TextView
+    android:id="@+id/tv_find_describe_two"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/black"
+    android:textSize="20dp"
+    android:text="这部剧不因谎报，还京东了女王，迷倒了总统"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_find_one_two"
+            android:layout_width="120dp"
+            android:scaleType="fitXY"
+            android:layout_height="80dp" />
+        <ImageView
+            android:id="@+id/iv_find_two_two"
+            android:layout_width="120dp"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="4dp"
+            android:layout_height="80dp" />
+        <ImageView
+            android:id="@+id/iv_find_three_two"
+            android:layout_width="120dp"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="4dp"
+            android:layout_height="80dp" />
+    </LinearLayout>
+    <include layout="@layout/find_bottom" />
+</LinearLayout>
